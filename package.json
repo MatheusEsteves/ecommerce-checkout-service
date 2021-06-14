@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-checkout-service",
+  "version": "1.0.0",
+  "description": "[Projeto de Mentoria] Caso de uso de microsserviços em um e-commerce - Checkout Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusEsteves/ecommerce-checkout-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusEsteves/ecommerce-checkout-service/issues"
+  },
+  "homepage": "https://github.com/MatheusEsteves/ecommerce-checkout-service#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

@@ -1,4 +1,6 @@
-exports.requestPurchase = (request, response, next) => {
+exports.requestPurchase = (request, response) => {
+    console.dir(request.body);
+
     response.status(201).send({
         "status": 201,
         "message": "Purchase requested sucessfully",
